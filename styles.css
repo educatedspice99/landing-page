@@ -1,13 +1,115 @@
 body{
     font-family: "Roboto";
 }
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
 nav{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.body-boxed {
     display: flex;
     flex-direction: row;
-    background-color: #1F2937;
-    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 20px 30px;
+    flex-wrap: nowrap;
+    gap: 30px 30px;
 }
 
 .header_logo{
     font-family: "Roboto";
+    font-size: 24px;
+    flex-wrap: nowrap;
+}
+
+#header_menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header_menu_links{
+    padding: 10px;
+}
+
+#section-1{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+}
+#section-1-column-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 15px
+}
+
+#section-1-column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center
+    gap: 5px 5px;
+}
+#section-1-subtitle{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.button-1{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 30px;
+}
+
+#section-2{
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+}
+#section-2-boxed{
+    flex-direction: column;
+}
+#section-2-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.section-2-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 130px;
+    font-style: italic;
+
 }
