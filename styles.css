@@ -25,7 +25,6 @@ nav{
 
 .body-boxed {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 800px;
@@ -55,6 +54,8 @@ nav{
     display: flex;
     justify-content: center;
     color: #F9FAF8;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 #section-1-column-1{
     display: flex;
@@ -68,7 +69,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: end;
-    justify-content: center
+    justify-content: center;
     gap: 5px 5px;
 }
 #section-1-subtitle{
@@ -84,8 +85,19 @@ nav{
     border-radius: 10px;
     border: none;
     padding: 5px 30px;
+    text-wrap: nowrap;
 }
-
+.button-2{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid #F9FAF8;
+    padding: 5px 30px;
+    text-wrap: nowrap;
+}
 #section-2{
     background-color: #F9FAF8;
     display: flex;
@@ -94,6 +106,8 @@ nav{
 }
 #section-2-boxed{
     flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 #section-2-row{
     display: flex;
@@ -111,5 +125,74 @@ nav{
     gap: 20px;
     width: 130px;
     font-style: italic;
+}
+#section-3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 
+}
+#section-3-boxed{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 600px;
+}
+.quote{
+    font-size: 30px;
+    font-family: "Roboto";
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+}
+.quote-title{
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+#section-4{
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
+#section-4-boxed{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.callout-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 30px;
+    width: 700px;
+}
+.callout-1-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.callout-1-subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    color: #E5E7EB;
+}
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-boxed{
+    align-items: center;
+    justify-content: center;
 }
